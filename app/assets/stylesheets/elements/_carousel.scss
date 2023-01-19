@@ -1,0 +1,30 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  margin-left: 14rem;
+  margin-top: 20vh;
+  max-width: 100%;
+}
+
+.name-carousel {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: #000000;
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-family: 'Fragment Mono', monospace;
+}
+
+.carousel-image {
+  height: 68vh;
+  width: 100%;
+  margin-left: 0.3rem;
+  border: solid white;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}

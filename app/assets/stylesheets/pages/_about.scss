@@ -1,0 +1,40 @@
+.sub-container::-webkit-scrollbar {
+  display: none;
+}
+
+.about-section {
+  position: absolute;
+  right: 6vw;
+  width: 27vw;
+  top: 16vh;
+  // padding: 0rem 0rem 6rem 10rem;
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+}
+
+#img-shan {
+  position: fixed;
+  height: 60vh;
+  // width: 68vh;
+  object-fit: cover;
+  left: 7rem;
+  top: 23vh;
+  // border: solid #f4f4f4;
+  // filter: grayscale(100%);
+}
+
+.email {
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}

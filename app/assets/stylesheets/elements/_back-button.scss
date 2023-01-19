@@ -1,0 +1,17 @@
+.back-button {
+  position: absolute;
+  top: 15vh;
+  color: #C0C0C0;
+  background-color: transparent;
+  border: none;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-family: 'Fragment Mono';
+  // width: 14vw;
+  font-size: 1.3rem;
+  border-bottom: solid;
+}
+
+.back-button:hover {
+  color: #C0C0C0;
+}

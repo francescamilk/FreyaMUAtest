@@ -1,0 +1,13 @@
+.sub-container {
+  position: fixed;
+  top: 0;
+  margin-left: 14%;
+  width: 70vw;
+  height: 100vh;
+  background: linear-gradient(-180deg, rgba(0,0,0,0.05) 0%, rgba(255,255,255,0.50) 100%);
+  background-color: transparent;
+  z-index: -1;
+  overflow: scroll;
+  scroll-behavior: smooth;
+
+}

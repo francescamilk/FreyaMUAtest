@@ -1,0 +1,29 @@
+.my-navbar {
+  margin: 0;
+  left: 0;
+  top: 0;;
+  height: 12vh;
+  width: 100%;
+  font-weight: lighter;
+  background-color: transparent;
+  position: fixed;
+  background: linear-gradient(-180deg, rgba(116, 115, 115, 0.44) 0%, rgba(255,255,255,0.50) 100%);
+  z-index: 1;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-family: 'Fragment Mono', monospace;
+  text-decoration: none!important;
+  word-spacing: -30px;
+}
+
+.logo:hover {
+  color: rgb(255, 255, 255);
+}
