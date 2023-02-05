@@ -1,17 +1,50 @@
 .back-button {
-  position: absolute;
+  position: fixed;
   top: 15vh;
-  color: #C0C0C0;
+  color: #000000;
   background-color: transparent;
   border: none;
-  margin-left: 1rem;
+  margin-left: 2.5vw;
   font-weight: 700;
   font-family: 'Fragment Mono';
   // width: 14vw;
-  font-size: 1.3rem;
+  font-size: 1.7vh;
   border-bottom: solid;
 }
 
 .back-button:hover {
-  color: #C0C0C0;
+  color: #ffffff;
+}
+
+.back-button-white {
+  position: fixed;
+  top: 15vh;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  margin-left: 2vw;
+  font-weight: 700;
+  font-family: 'Fragment Mono';
+  // width: 14vw;
+  font-size: 1.7vh;
+  border-bottom: solid;
+  z-index: 5;
+}
+
+.back-button-white:hover {
+  color: #ffffff;
+}
+
+.back-arrow-white {
+  position: fixed;
+  top: 13vh;
+  height: 6vh;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.back-arrow-black {
+  position: fixed;
+  top: 13vh;
+  height: 6vh;
 }

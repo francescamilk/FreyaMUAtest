@@ -3,9 +3,10 @@
   flex-direction: row;
   overflow-x: scroll;
   scroll-behavior: smooth;
-  margin-left: 14rem;
-  margin-top: 20vh;
+  margin-left: 14vw;
+  margin-top: 0vh;
   max-width: 100%;
+  scroll-behavior: smooth;
 }
 
 .name-carousel {
@@ -19,10 +20,17 @@
 }
 
 .carousel-image {
-  height: 68vh;
+  height: 100vh;
   width: 100%;
   margin-left: 0.3rem;
   border: solid white;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.two {
+  filter: grayscale(100%);
+
 }
 
 .carousel::-webkit-scrollbar {

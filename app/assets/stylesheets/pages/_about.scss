@@ -5,36 +5,30 @@
 .about-section {
   position: absolute;
   right: 6vw;
-  width: 27vw;
-  top: 16vh;
+  width: 34vw;
+  top: 13vh;
   // padding: 0rem 0rem 6rem 10rem;
   color: #000000;
-  font-family: 'Raleway', sans-serif;
   text-align: justify;
+  padding-bottom: 10vh;
   h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+    font-size: 3.4vw;
     text-align: center;
     margin-bottom: 1.2rem;
   }
   p {
-    font-size: 1.1rem;
-    font-weight: 200;
+    font-size: 1.7vh;
+    font-weight: 400;
+    font-family: 'Aboreto', cursive;
   }
 }
 
 #img-shan {
   position: fixed;
-  height: 60vh;
-  // width: 68vh;
+  width: 50vw;
   object-fit: cover;
-  left: 7rem;
+  left: 6vw;
   top: 23vh;
-  // border: solid #f4f4f4;
-  // filter: grayscale(100%);
-}
-
-.email {
-  font-weight: 700;
-  font-family: 'Raleway', sans-serif;
 }

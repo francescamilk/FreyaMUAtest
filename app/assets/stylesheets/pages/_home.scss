@@ -1,9 +1,12 @@
 body.home {
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dsl9ixl0t/image/upload/v1673876370/shanMUA/Rosie/1B6D2536-7F3F-49DE-9C79-09EAFEF6144D_qepl1v_zudpwu.jpg);
+  background-image: url(https://res.cloudinary.com/dsl9ixl0t/image/upload/v1673876370/shanMUA/Rosie/1B6D2536-7F3F-49DE-9C79-09EAFEF6144D_qepl1v_zudpwu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+  background-position-x: center;
 }
 
 body.model {
   background-color: #ffffff;
+  height: 88vh;
 }

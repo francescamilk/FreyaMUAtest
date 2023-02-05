@@ -12,16 +12,27 @@
 .icons {
   justify-content: space-between;
   position: fixed;
-  right: 0;
-  margin: 2rem;
+  right: 2vw;
+  bottom: 2vh;
 }
 
 .img {
-  margin: 0.5rem;
-  height: 2.5rem;
+  height: 4.5vh;
+  padding-left: 1vw;
 }
 
 a {
   text-decoration: none;
   color: transparent;
+}
+
+.freya {
+  // font-family: 'Raleway', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 400;
+    font-family: 'Aboreto', cursive;
+    display: flex;
+    align-content: flex-end;
+    padding: 2vw;
+    margin-top: 3vh;
 }
