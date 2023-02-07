@@ -9,6 +9,7 @@ class PagesController < ApplicationController
   end
 
   def daisy
+    render variants: [:mobile, :desktop]
   end
 
   def elizabeth
